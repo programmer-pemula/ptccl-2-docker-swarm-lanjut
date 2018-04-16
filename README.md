@@ -1,12 +1,28 @@
 # ptccl-2-docker-swarm-lanjut
 ##docker swarm init
-Estimated reading time: 7 minutes
 ##Description
- * Initialize a swarm
 
-* API 1.24+  The client and daemon API must both be at least 1.24 to use this command. Use the docker version command on the client to check your client and daemon API versions.
+* Inisialisasi sebuah swarm
 
-* Swarm This command works with the Swarm orchestrator.
+* API 1.24+ Klien dan daemon API harus memiliki setidaknya 1,24 untuk menggunakan perintah ini. Gunakan perintah versi docker pada klien untuk memeriksa versi API klien dan daemon Anda.
 
-## Usage
+* Swarm Perintah ini bekerja dengan orkestra Swarm.
+
+## Penggunaan
 docker swarm init [OPTIONS]
+
+## Memulai dengan mode swarm
+
+Tutorial ini memperkenalkan Anda pada fitur mode Docker Engine Swarm. Anda mungkin ingin membiasakan diri dengan konsep-konsep kunci sebelum memulai.
+
+Panduan tutorial Anda melalui kegiatan-kegiatan berikut:
+
+* menginisialisasi sekelompok Mesin Docker dalam mode swarm
+
+* menambahkan simpul ke swarm
+
+* menyebarkan layanan aplikasi ke swarm
+
+* mengelola segerombolan begitu Anda memiliki segalanya berjalan
+
+ 
